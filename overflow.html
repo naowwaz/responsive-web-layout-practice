@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            background: #000;
+            color: white;
+        }
+
+        .mini {
+            border: 3px solid saddlebrown;
+            height: 40px;
+            width: 100px;
+
+        }
+
+        .tour {
+            height: 500px;
+            width: 400px;
+            border: 3px solid saddlebrown;
+            overflow: scroll;
+            overflow-x: hidden;
+        }
+
+        .tour2 {
+            border: 3px solid saddlebrown;
+            width: 400px;
+            height: 500px;
+
+        }
+
+        .short-text {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .section {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .container,
+        .inner {
+            width: 150px;
+            height: 150px;
+            border: 2px solid rgb(76, 76, 236);
+        }
+
+        .container {
+            background: skyblue;
+
+        }
+
+        .inner {
+            background: red;
+            transform: rotate(45deg) translate(3px, 3px) scale(0.5);
+        }
+
+        .tran {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .transition {
+            width: 300px;
+            justify-content: center;
+            height: 200px;
+            background: green;
+            transition: width 1s, height 1s, transform .5s;
+        }
+
+        .transition:hover {
+            width: 600px;
+            height: 400px;
+            transform: rotate(180deg);
+        }
+
+        .field {
+            background: white;
+            border: 1px solid;
+
+        }
+        .field:hover .bat{
+            transform: rotate(-60deg);
+            transform-origin: top right;
+        }
+        .ball{
+            width: 50px;
+            height: 50px;
+            border-radius: 25px ;
+            background: red;
+            position: relative;
+            left: 730px;
+            transition: transform 1s ease-out .3s;
+        }
+        .field:hover .ball{
+            transform: translate(400px, -100px) ;
+        }
+
+        .bat{
+            transition: transform .2s ease-in;
+        
+        }
+    </style>
+</head>
+
+<body>
+    <h1>This is overflow for practise</h1>
+    <section>
+        <div class="mini">
+            <p class="short-text" title="If u want money then give the bkash number"> If u want money then give the
+                bkash
+                number</p>
+        </div>
+        <div class="section">
+            <div class="tour">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error velit odit voluptatem nostrum
+                    explicabo
+                    reprehenderit a pariatur iste maiores mollitia assumenda consequuntur nobis voluptatum doloremque
+                    vitae,
+                    iure tempora porro nesciunt sint! Explicabo exercitationem fugiat beatae consectetur assumenda
+                    deleniti
+                    ea
+                    a, tempore odio ut commodi veritatis hic possimus nulla aliquam laudantium consequatur. Dignissimos
+                    magnam
+                    illum suscipit exercitationem veritatis expedita libero cupiditate quo perspiciatis. Nisi, dicta.
+                    Magnam
+                    consequatur ducimus veritatis inventore porro reiciendis explicabo esse omnis consectetur corrupti,
+                    dicta
+                    eius accusamus, itaque doloremque, fugiat iure. Adipisci voluptate ea reprehenderit tempore, laborum
+                    quia
+                    autem. Animi itaque numquam impedit, quidem quam eligendi quasi eos nam libero exercitationem nisi
+                    repellat
+                    pariatur dolor facilis non ipsam laborum voluptatibus. Iste in quasi, rerum ipsam ab exercitationem
+                    obcaecati corrupti necessitatibus reiciendis labore eligendi autem repudiandae cumque architecto
+                    placeat
+                    commodi. Omnis asperiores ab corrupti delectus repellat repudiandae voluptates corporis unde eos
+                    porro
+                    eaque
+                    illo, pariatur maxime odit magni quasi iure vel sit eligendi est. Numquam nemo reiciendis quasi enim
+                    sint et
+                    veritatis maxime officia atque voluptates, eveniet natus deserunt molestiae officiis, nisi sed
+                    dolorem
+                    consectetur corporis debitis est exercitationem? Est aperiam autem tenetur architecto voluptas
+                    repellat
+                    nulla a, doloremque eius provident voluptatibus. Voluptate numquam odit nesciunt perspiciatis!
+                    Veniam,
+                    dicta
+                    aliquid incidunt illo consequatur quisquam facere suscipit tempora quibusdam dolor fugiat? Natus,
+                    adipisci
+                    aspernatur tempora, quis impedit esse ad omnis possimus ea laudantium, assumenda iusto eveniet.
+                    Nesciunt
+                    quibusdam corrupti sapiente magnam enim maiores deserunt iusto amet? Omnis id quos dolore
+                    voluptatum?
+                    Harum
+                    optio distinctio culpa tenetur aliquid vero explicabo architecto repellat facilis deserunt sapiente
+                    quos
+                    iure, odio eligendi, sint soluta iste voluptatem eum assumenda. Ad quam ipsam voluptates molestiae
+                    iure
+                    fugit eaque dolorum esse quis molestias maiores dolor quibusdam recusandae nobis vero error,
+                    pariatur
+                    ipsa
+                    obcaecati beatae vel fuga commodi similique rerum! Tempore cumque nemo nisi iure ab illo dolor!
+                    Nobis
+                    quibusdam rem alias adipisci inventore minima suscipit voluptates veritatis! Aspernatur cum non
+                    debitis
+                    nobis molestias fuga ex quod quia tempora placeat officiis dicta nam, exercitationem vel minima
+                    maiores
+                    accusantium quae amet! Explicabo at voluptas id excepturi! Doloribus rem fugit quo sunt eaque nam
+                    nihil
+                    officiis similique dolorum rerum quas voluptatem blanditiis cum commodi labore, earum deleniti
+                    perferendis!
+                    Odit pariatur praesentium non cupiditate voluptatum iusto explicabo vel molestiae quos fugit sit
+                    dolorum
+                    debitis distinctio eveniet optio recusandae dicta quod voluptatem doloribus quasi, adipisci, ullam
+                    maiores
+                    hic. Quas incidunt eos facere sunt ipsum ullam dolore eius. Ipsam placeat asperiores fuga officia,
+                    architecto sint tempore distinctio rem? Cupiditate maxime doloremque praesentium sunt veniam dolor
+                    mollitia
+                    in! Corrupti corporis animi, incidunt quis esse facere voluptas similique expedita soluta, ea
+                    inventore
+                    quod
+                    in quasi architecto quaerat velit ducimus debitis voluptates. Quas nulla quibusdam tenetur impedit
+                    dicta,
+                    mollitia eaque natus maxime consectetur, perspiciatis alias officiis, blanditiis modi veritatis.
+                    Iure
+                    pariatur expedita veniam assumenda voluptates suscipit rem quae! Minima at exercitationem eaque, id
+                    autem
+                    sunt assumenda accusantium rem reprehenderit aliquid nobis adipisci cupiditate doloremque reiciendis
+                    sit
+                    illum voluptate? Quis aliquid earum, fugit porro corporis soluta hic perspiciatis? Sapiente
+                    repudiandae
+                    tempore tempora voluptas sit quo nemo illo soluta? Autem laborum maiores qui dolore aliquid cum
+                    veniam
+                    odit
+                    officiis, quibusdam, debitis facilis quis voluptatum ducimus. Voluptatum voluptates corporis est
+                    nostrum
+                    nemo vitae ea voluptatem sint magni consequuntur, explicabo nihil asperiores incidunt error sapiente
+                    dolor
+                    quia. Iusto magnam quo exercitationem magni veritatis, natus culpa minus tenetur modi officiis eos
+                    commodi
+                    laborum, corrupti obcaecati? Nam amet voluptatibus eum accusantium, mollitia quae ipsum autem,
+                    molestias
+                    corrupti, dolore qui? Blanditiis sequi voluptate officiis, voluptatem excepturi autem illum! Quidem
+                    adipisci
+                    quaerat, tempora voluptatem illo eligendi praesentium nisi, suscipit modi et possimus ab omnis
+                    repellendus
+                    quibusdam dolores sed ullam rem? Rerum suscipit labore deserunt!</p>
+            </div>
+            <div class="container">
+                <div class="inner">box-1</div>
+            </div>
+            <div class="container">
+                <div class="inner">box-1</div>
+            </div>
+            <div class="container">
+                <div class="inner">box-1</div>
+            </div>
+        </div>
+        <div class="tran">
+            <div class="transition">
+                <h1>TRANSITION</h1>
+            </div>
+            <div class="transition">
+                <h1>TRANSITION</h1>
+            </div>
+            <div class="transition">
+                <h1>TRANSITION</h1>
+            </div>
+        </div>
+    </section>
+
+    <div class="field">
+        <img class="bat" src="bat.webp" alt="">
+       <div class="ball"></div>
+    </div>
+
+</body>
+
+</html>
